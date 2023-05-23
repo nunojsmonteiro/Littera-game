@@ -1,0 +1,78 @@
+/*#game{
+    display: grid;
+    place-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(6,auto);
+    grid-template-columns: repeat(4,auto)
+}
+*/
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    background-color: lightgray;
+   }
+
+/*line behind title*/
+hr {
+    width: 400px;
+}
+
+
+#title {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center; 
+}
+
+#bbox {
+    width: 350px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+
+/* little box */
+.lbox {
+    border: 2px solid lightblue;
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    border-color: black;
+
+    /* text inside lbox */
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+
+.correct{
+    background-color: green;
+    color: white;
+    border-color: white;
+}
+
+.present{
+    background-color: yellow;
+    color: black;
+    border-color: white;
+}
+
+.incorrect{
+    background-color: darkred;
+    color: white;
+    border-color: white;
+}
