@@ -124,6 +124,800 @@ const dictionary = [
   "chow",
   "city",
   "clap",
+  "clan",
+  "clap",
+  "clip",
+  "clot",
+  "club",
+  "clue",
+  "coal",
+  "coat",
+  "code",
+  "coin",
+  "cold",
+  "come",
+  "cone",
+  "cook",
+  "cool",
+  "cope",
+  "cord",
+  "core",
+  "corn",
+  "cost",
+  "cosy",
+  "cows",
+  "cram",
+  "crop",
+  "crow",
+  "cube",
+  "curl",
+  "cure",
+  "curl",
+  "cute",
+  "dame",
+  "damn",
+  "damp",
+  "dance",
+  "dare",
+  "dark",
+  "dash",
+  "data",
+  "date",
+  "dawn",
+  "dead",
+  "deaf",
+  "deal",
+  "dear",
+  "debt",
+  "deck",
+  "deer",
+  "defy",
+  "deli",
+  "desk",
+  "dial",
+  "dice",
+  "dick",
+  "diet",
+  "dime",
+  "dirt",
+  "dish",
+  "disk",
+  "dive",
+  "dock",
+  "does",
+  "doge",
+  "doll",
+  "dome",
+  "done",
+  "doom",
+  "door",
+  "dope",
+  "dose",
+  "dove",
+  "down",
+  "doze",
+  "drag",
+  "draw",
+  "drop",
+  "drug",
+  "drum",
+  "dual",
+  "duck",
+  "dull",
+  "dump",
+  "dusk",
+  "dust",
+  "duty",
+  "each",
+  "earn",
+  "ease",
+  "east",
+  "easy",
+  "edge",
+  "edit",
+  "eggs",
+  "else",
+  "emit",
+  "empty",
+  "envy",
+  "epic",
+  "even",
+  "ever",
+  "evil",
+  "exam",
+  "exit",
+  "fade",
+  "fail",
+  "fair",
+  "fake",
+  "fame",
+  "farm",
+  "fast",
+  "fate",
+  "fear",
+  "feat",
+  "feed",
+  "feel",
+  "feet",
+  "fell",
+  "felt",
+  "fern",
+  "feud",
+  "file",
+  "fill",
+  "film",
+  "find",
+  "fine",
+  "fire",
+  "firm",
+  "fish",
+  "fist",
+  "five",
+  "flag",
+  "flap",
+  "flat",
+  "flea",
+  "flee",
+  "flex",
+  "flip",
+  "flow",
+  "flux",
+  "foam",
+  "folk",
+  "food",
+  "fool",
+  "foot",
+  "ford",
+  "form",
+  "fort",
+  "foul",
+  "four",
+  "free",
+  "frog",
+  "from",
+  "fuel",
+  "full",
+  "fund",
+  "funk",
+  "fury",
+  "fuse",
+  "fuss",
+  "gain",
+  "game",
+  "gang",
+  "gate",
+  "gaze",
+  "gear",
+  "gene",
+  "germ",
+  "gift",
+  "girl",
+  "give",
+  "glad",
+  "glam",
+  "glow",
+  "goal",
+  "goat",
+  "gold",
+  "golf",
+  "gone",
+  "good",
+  "gore",
+  "grab",
+  "gray",
+  "grid",
+  "grim",
+  "grin",
+  "grip",
+  "grow",
+  "grub",
+  "gulf",
+  "gust",
+  "hack",
+  "hail",
+  "hair",
+  "half",
+  "hall",
+  "halt",
+  "hand",
+  "hang",
+  "hard",
+  "harm",
+  "hash",
+  "have",
+  "hawk",
+  "haze",
+  "head",
+  "heal",
+  "heap",
+  "hear",
+  "heat",
+  "heel",
+  "held",
+  "hell",
+  "help",
+  "herb",
+  "here",
+  "hero",
+  "hide",
+  "high",
+  "hike",
+  "hill",
+  "hint",
+  "hire",
+  "hiss",
+  "hist",
+  "hive",
+  "hold",
+  "hole",
+  "holy",
+  "home",
+  "hood",
+  "hook",
+  "hope",
+  "horn",
+  "host",
+  "hour",
+  "howl",
+  "huge",
+  "hull",
+  "hump",
+  "hunt",
+  "hurt",
+  "hymn",
+  "hype",
+  "idea",
+  "idle",
+  "inch",
+  "info",
+  "into",
+  "iron",
+  "item",
+  "jail",
+  "jazz",
+  "jeep",
+  "join",
+  "joke",
+  "jump",
+  "just",
+  "keen",
+  "keep",
+  "kick",
+  "kill",
+  "kind",
+  "king",
+  "kiss",
+  "kite",
+  "knee",
+  "knit",
+  "knob",
+  "knot",
+  "know",
+  "lake",
+  "lamb",
+  "lamp",
+  "land",
+  "lane",
+  "last",
+  "late",
+  "lazy",
+  "leaf",
+  "leak",
+  "leap",
+  "left",
+  "lend",
+  "lens",
+  "less",
+  "lest",
+  "lift",
+  "like",
+  "limp",
+  "line",
+  "link",
+  "lion",
+  "list",
+  "live",
+  "load",
+  "loaf",
+  "loan",
+  "lock",
+  "loge",
+  "long",
+  "look",
+  "loop",
+  "lord",
+  "loud",
+  "love",
+  "luck",
+  "lump",
+  "lung",
+  "lure",
+  "lust",
+  "lute",
+  "made",
+  "main",
+  "make",
+  "male",
+  "mall",
+  "many",
+  "mark",
+  "mask",
+  "mast",
+  "mate",
+  "math",
+  "mead",
+  "meal",
+  "mean",
+  "meat",
+  "meet",
+  "melt",
+  "menu",
+  "mess",
+  "mice",
+  "mile",
+  "milk",
+  "mill",
+  "mind",
+  "mine",
+  "mint",
+  "mist",
+  "mixt",
+  "mode",
+  "moon",
+  "mood",
+  "more",
+  "most",
+  "moth",
+  "move",
+  "much",
+  "mule",
+  "muse",
+  "must",
+  "mute",
+  "nail",
+  "name",
+  "nape",
+  "nark",
+  "navy",
+  "near",
+  "neat",
+  "need",
+  "nest",
+  "news",
+  "next",
+  "nice",
+  "nick",
+  "nine",
+  "node",
+  "none",
+  "noon",
+  "norm",
+  "nose",
+  "note",
+  "noun",
+  "oath",
+  "obey",
+  "obit",
+  "oily",
+  "okay",
+  "omen",
+  "omit",
+  "once",
+  "only",
+  "onto",
+  "open",
+  "oral",
+  "over",
+  "pace",
+  "pack",
+  "page",
+  "paid",
+  "pain",
+  "pair",
+  "pale",
+  "palm",
+  "pant",
+  "park",
+  "part",
+  "pass",
+  "past",
+  "path",
+  "pave",
+  "pawn",
+  "peak",
+  "pear",
+  "peel",
+  "peer",
+  "pelt",
+  "pent",
+  "perk",
+  "perm",
+  "pest",
+  "pile",
+  "pill",
+  "pink",
+  "pint",
+  "pipe",
+  "pity",
+  "plan",
+  "play",
+  "plea",
+  "plod",
+  "plot",
+  "plow",
+  "plug",
+  "plum",
+  "plus",
+  "poem",
+  "poke",
+  "pole",
+  "poll",
+  "pond",
+  "pony",
+  "pool",
+  "poor",
+  "port",
+  "pose",
+  "post",
+  "pour",
+  "pray",
+  "prep",
+  "prod",
+  "prof",
+  "prog",
+  "prop",
+  "prow",
+  "puck",
+  "puff",
+  "pulp",
+  "punk",
+  "pure",
+  "push",
+  "putt",
+  "quad",
+  "quay",
+  "quit",
+  "quiz",
+  "race",
+  "rack",
+  "raft",
+  "rage",
+  "raid",
+  "rail",
+  "rain",
+  "ramp",
+  "rank",
+  "rant",
+  "rare",
+  "rash",
+  "rate",
+  "rave",
+  "read",
+  "real",
+  "rear",
+  "rely",
+  "rend",
+  "rent",
+  "rest",
+  "rice",
+  "rich",
+  "ride",
+  "rift",
+  "rill",
+  "rime",
+  "rind",
+  "ring",
+  "rink",
+  "rise",
+  "risk",
+  "rite",
+  "road",
+  "roam",
+  "roar",
+  "robe",
+  "rock",
+  "role",
+  "roll",
+  "rope",
+  "rose",
+  "ruin",
+  "rule",
+  "rune",
+  "runt",
+  "rush",
+  "rust",
+  "ruth",
+  "safe",
+  "said",
+  "sail",
+  "sale",
+  "salt",
+  "same",
+  "sand",
+  "sane",
+  "sank",
+  "save",
+  "says",
+  "scan",
+  "scar",
+  "scat",
+  "scum",
+  "seal",
+  "seam",
+  "seat",
+  "seed",
+  "seek",
+  "seem",
+  "seen",
+  "self",
+  "sell",
+  "send",
+  "sent",
+  "sets",
+  "sewn",
+  "sham",
+  "shat",
+  "shaw",
+  "shed",
+  "ship",
+  "shoe",
+  "shop",
+  "shot",
+  "show",
+  "shun",
+  "shut",
+  "sick",
+  "side",
+  "sift",
+  "sign",
+  "silk",
+  "sill",
+  "silo",
+  "silt",
+  "sine",
+  "sing",
+  "sink",
+  "site",
+  "size",
+  "skew",
+  "skid",
+  "skim",
+  "skin",
+  "skip",
+  "skit",
+  "slab",
+  "slam",
+  "slap",
+  "slay",
+  "sled",
+  "slew",
+  "slid",
+  "slim",
+  "slip",
+  "slit",
+  "slog",
+  "slot",
+  "slow",
+  "slug",
+  "slum",
+  "slur",
+  "smog",
+  "snag",
+  "snap",
+  "snip",
+  "snob",
+  "snow",
+  "snug",
+  "soar",
+  "sock",
+  "soil",
+  "sold",
+  "sole",
+  "solo",
+  "some",
+  "song",
+  "soon",
+  "soot",
+  "sore",
+  "sort",
+  "soul",
+  "soup",
+  "sour",
+  "span",
+  "spat",
+  "spin",
+  "spit",
+  "spot",
+  "spry",
+  "stab",
+  "stag",
+  "star",
+  "stay",
+  "stem",
+  "step",
+  "stir",
+  "stop",
+  "stow",
+  "stub",
+  "stud",
+  "stun",
+  "suit",
+  "sulk",
+  "sums",
+  "sure",
+  "swan",
+  "swap",
+  "sway",
+  "swim",
+  "swum",
+  "sync",
+  "tack",
+  "tail",
+  "take",
+  "tale",
+  "talk",
+  "tall",
+  "tame",
+  "tank",
+  "tape",
+  "task",
+  "tast",
+  "team",
+  "tear",
+  "tech",
+  "tell",
+  "tend",
+  "term",
+  "test",
+  "than",
+  "that",
+  "thee",
+  "them",
+  "then",
+  "they",
+  "thin",
+  "this",
+  "thou",
+  "thud",
+  "thus",
+  "tick",
+  "tide",
+  "tidy",
+  "tier",
+  "till",
+  "time",
+  "tint",
+  "tiny",
+  "tire",
+  "toil",
+  "tone",
+  "took",
+  "tool",
+  "tops",
+  "torn",
+  "toss",
+  "tour",
+  "town",
+  "toys",
+  "trap",
+  "tray",
+  "tree",
+  "trim",
+  "trip",
+  "trod",
+  "trot",
+  "true",
+  "tube",
+  "tuck",
+  "tune",
+  "turf",
+  "twig",
+  "twin",
+  "type",
+  "ugly",
+  "undo",
+  "unit",
+  "unto",
+  "upon",
+  "urge",
+  "used",
+  "user",
+  "vain",
+  "vali",
+  "vamp",
+  "vase",
+  "veal",
+  "veer",
+  "veil",
+  "vein",
+  "verb",
+  "vest",
+  "vial",
+  "vice",
+  "vict",
+  "view",
+  "vile",
+  "vine",
+  "visa",
+  "void",
+  "volt",
+  "vote",
+  "wage",
+  "wail",
+  "wait",
+  "wake",
+  "walk",
+  "wall",
+  "walt",
+  "want",
+  "ward",
+  "ware",
+  "warm",
+  "warn",
+  "wart",
+  "wash",
+  "wasp",
+  "watt",
+  "wave",
+  "waxt",
+  "weak",
+  "wean",
+  "wear",
+  "weed",
+  "week",
+  "weep",
+  "weir",
+  "well",
+  "went",
+  "were",
+  "west",
+  "what",
+  "whee",
+  "when",
+  "whim",
+  "whip",
+  "whom",
+  "whop",
+  "wide",
+  "wife",
+  "wild",
+  "will",
+  "wind",
+  "wine",
+  "wing",
+  "wink",
+  "winn",
+  "wipe",
+  "wire",
+  "wise",
+  "wish",
+  "with",
+  "wits",
+  "woke",
+  "wolf",
+  "wood",
+  "wool",
+  "word",
+  "work",
+  "worm",
+  "worn",
+  "wove",
+  "wrap",
+  "wren",
+  "writ",
+  "yank",
+  "yard",
+  "yarn",
+  "year",
+  "yell",
+  "yeti",
+  "yoga",
+  "yoke",
+  "yolk",
+  "your",
+  "zero",
+  "zone",
+  "zoom",
 ];
 
 const magicalWord =
@@ -132,26 +926,25 @@ console.log(magicalWord);
 
 //const magicalWord = "FEAR";
 
-/*/let myAudio = document.querySelector('#audio')
-myAudio.play()
-
-<audio id="audio" autoplay loop  controls src="music/my_music.mp3"></audio> */
+let myAudio = document.getElementById("myaudio");
+myAudio.volume = 0.2;
 
 //when the window loads
 window.onload = () => {
   createSquares();
 };
+//location.href = "/game-over.html";
 
 //Board//
 
 function createSquares() {
   for (let i = 0; i < height; i++) {
     for (let v = 0; v < width; v++) {
-      let lbox = document.createElement("span");
-      lbox.id = i.toString() + "-" + v.toString();
-      lbox.classList.add("lbox");
-      lbox.innerText = " ";
-      document.getElementById("bbox").appendChild(lbox);
+      let square = document.createElement("span");
+      square.id = i.toString() + "-" + v.toString();
+      square.classList.add("square");
+      square.innerText = "";
+      document.getElementById("grid").appendChild(square);
     }
   }
 }
@@ -161,116 +954,96 @@ function createSquares() {
 document.addEventListener("keyup", (event) => {
   if (gameOver) return;
 
+  //Key A to Z
   if ("KeyA" <= event.code && event.code <= "KeyZ") {
     if (col < width) {
-      let currLbox = document.getElementById(
+      let currSquare = document.getElementById(
         row.toString() + "-" + col.toString()
-      );
+      ); // current square;
 
-      if (currLbox.innerText == "") {
-        currLbox.innerText = event.code[3]; //index 3 from all keyes - ex. keyA
+      if (currSquare.innerText == "") {
+        currSquare.innerText = event.code[3]; //index 3 from all keyes - ex. keyA
         col += 1;
       }
     }
+
+    //Key BackSpace
   } else if (event.code === "Backspace") {
     if (0 < col && col <= width) {
       //you cannot backspace when you're in i0
       col -= 1;
     }
-    let currLbox = document.getElementById(
+
+    let currSquare = document.getElementById(
       row.toString() + "-" + col.toString()
     );
-    currLbox.innerText = "";
+    currSquare.innerText = "";
+
+    //Key Enter
   } else if (event.code === "Enter") {
     update();
-    row += 1;
-    col = 0; //position starts
   }
 
   //magicalWord to win the game
   if (!gameOver && row === height) {
     gameOver = true;
-    document.getElementById("answer").innerText = magicalWord;
+    document.getElementById("answer").innerText = [
+      "The word is " +
+        magicalWord +
+        "!" +
+        "\n Refresh the page to play again 😃",
+    ]; // Message if loses the game
   }
 });
 
 function update() {
+  let attempt = "";
+  document.getElementById("answer").innerText = "";
+
+  for (let c = 0; c < width; c++) {
+    let currSquare = document.getElementById(
+      row.toString() + "-" + c.toString()
+    );
+    let letter = currSquare.innerText;
+    attempt += letter;
+  }
+
+  attempt = attempt.toLowerCase();
+  if (!dictionary.includes(attempt)) {
+    document.getElementById("answer").innerText = "I don't know that word 😅";
+    return;
+  }
+
+  //checking the letters
   let correct = 0;
-
   //check if letter is correct or present
   for (let c = 0; c < width; c++) {
-    let currLbox = document.getElementById(row.toString() + "-" + c.toString());
-    let littera = currLbox.innerText;
+    let currSquare = document.getElementById(
+      row.toString() + "-" + c.toString()
+    );
+    let letter = currSquare.innerText;
 
     //is correct?
-    if (magicalWord[c] === littera) {
-      currLbox.classList.add("correct");
+    if (magicalWord[c] === letter) {
+      currSquare.classList.add("correct"); //print green
       correct += 1;
     }
     //is present?
-    else if (magicalWord.includes(littera)) {
-      currLbox.classList.add("present");
+    else if (magicalWord.includes(letter)) {
+      currSquare.classList.add("present"); //print yellow
     }
     //is incorrect?
     else {
-      currLbox.classList.add("incorrect");
+      currSquare.classList.add("incorrect"); //print red
     }
   }
 
   //if all letters are correct, game is over
   if (correct === width) {
     gameOver = true;
+    document.getElementById("winner").innerText =
+      "You won! Congratulations 🥳🥳🥳 \n Refresh the page to play again 😃"; // Message if wins the game
   }
-
-  //check if letter is correct or present
-  for (let c = 0; c < width; c++) {
-    let currLbox = document.getElementById(row.toString() + "-" + c.toString());
-    let littera = currLbox.innerText;
-
-    //is correct?
-    if (magicalWord[c] === littera) {
-      currLbox.classList.add("correct");
-      correct += 1;
-    }
-    //is present?
-    else if (magicalWord.includes(littera)) {
-      currLbox.classList.add("present");
-    }
-    //is incorrect?
-    else {
-      currLbox.classList.add("incorrect");
-    }
-  }
-
-  //if all letters are correct, game is over
-  if (correct === width) {
-    gameOver = true;
-  }
-
-  //check if letter is correct or present
-  for (let c = 0; c < width; c++) {
-    let currLbox = document.getElementById(row.toString() + "-" + c.toString());
-    let littera = currLbox.innerText;
-
-    //is correct?
-    if (magicalWord[c] === littera) {
-      currLbox.classList.add("correct");
-      correct += 1; // it will color green
-    }
-    //is present?
-    else if (magicalWord.includes(littera)) {
-      currLbox.classList.add("present");
-      //it will color yellow
-    }
-    //is incorrect?
-    else {
-      currLbox.classList.add("incorrect");
-      //   //it will color red
-      // }
-    }
-    //if all letters are correct, gameOver!
-    if (correct === width) {
-      gameOver = true;
-    }
-  }
+  row += 1; //next row
+  col = 0; //position starts
 }
