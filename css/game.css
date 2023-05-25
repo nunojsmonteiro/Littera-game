@@ -1,8 +1,12 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  background-image: url("/../images/background.jpg");
-  background-position: unset;
+  background: url("/../images/background.jpg"); /*no-repeat center center fixed;
+  /-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  background-position: center;
   background-size: cover;
   font-size: 25px;
 }
@@ -91,4 +95,30 @@ h2 {
   font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
+}
+
+button {
+  padding: 1%;
+  background: none;
+  font-family: cursive;
+  font-size: 20px;
+  color: gold;
+}
+
+audio {
+  padding: 2%;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: rgb(176, 28, 28);
+}
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #b1d4e0;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
 }

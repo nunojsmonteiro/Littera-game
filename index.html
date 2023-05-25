@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Littera</title>
     <link rel="stylesheet" href="css/game.css">
     
 </head>
 
     <body>
-        <h3>Loopey Toons presents</h3>
+        <h3>Loopey Tunes presents</h3>
         <h1 id="title">Littera</h1>
         <hr>
         <div id="grid"> 
         </div>
         <br>
+        <div>
         <hr class="hr2">
         <h2 id="answer"> </h2>
         <h2 id="winner"> </h2>
+        </div>
+        <button onClick="window.location.reload();">New Game</button>
+        <div>
         <audio id="myaudio" 
-        src="audio/The Legend of Zelda - Ocarina of Time.mp3"
-        autoplay 
+        src="audio/The Legend of Zelda - Ocarina of Time.mp3" 
+        controls
         loop="loop"
         ></audio>
+        </div>
     </body>
     <script src="js/game.js"></script>
 </html>

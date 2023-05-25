@@ -33,6 +33,7 @@ const dictionary = [
   "back",
   "bail",
   "bake",
+  "ball",
   "bald",
   "band",
   "bank",
@@ -55,14 +56,7 @@ const dictionary = [
   "bind",
   "bird",
   "bite",
-  "black",
-  "blank",
-  "blast",
-  "bleed",
-  "blend",
-  "bless",
   "blew",
-  "blink",
   "bloc",
   "blow",
   "blue",
@@ -263,6 +257,7 @@ const dictionary = [
   "flow",
   "flux",
   "foam",
+  "foal",
   "folk",
   "food",
   "fool",
@@ -426,8 +421,10 @@ const dictionary = [
   "look",
   "loop",
   "lord",
+  "lore",
   "loud",
   "love",
+  "lube",
   "luck",
   "lump",
   "lung",
@@ -435,6 +432,7 @@ const dictionary = [
   "lust",
   "lute",
   "made",
+  "maps",
   "main",
   "make",
   "male",
@@ -789,6 +787,7 @@ const dictionary = [
   "tint",
   "tiny",
   "tire",
+  "toll",
   "toil",
   "tone",
   "took",
@@ -924,8 +923,6 @@ const magicalWord =
   dictionary[Math.floor(Math.random() * dictionary.length)].toUpperCase();
 console.log(magicalWord);
 
-//const magicalWord = "FEAR";
-
 let myAudio = document.getElementById("myaudio");
 myAudio.volume = 0.2;
 
@@ -933,7 +930,6 @@ myAudio.volume = 0.2;
 window.onload = () => {
   createSquares();
 };
-//location.href = "/game-over.html";
 
 //Board//
 
@@ -988,11 +984,10 @@ document.addEventListener("keyup", (event) => {
   if (!gameOver && row === height) {
     gameOver = true;
     document.getElementById("answer").innerText = [
-      "The word is " +
-        magicalWord +
-        "!" +
-        "\n Refresh the page to play again 😃",
-    ]; // Message if loses the game
+      "The word is " + magicalWord + "!" + "\n Click New Game to play again 😃",
+    ];
+
+    // Message if loses the game
   }
 });
 
@@ -1042,7 +1037,7 @@ function update() {
   if (correct === width) {
     gameOver = true;
     document.getElementById("winner").innerText =
-      "You won! Congratulations 🥳🥳🥳 \n Refresh the page to play again 😃"; // Message if wins the game
+      "You won! Congratulations 🥳🥳🥳 \n Click New Game to play again 😃"; // Message if wins the game
   }
   row += 1; //next row
   col = 0; //position starts
