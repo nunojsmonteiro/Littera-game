@@ -8,6 +8,7 @@ body {
   background-size: cover;*/
   background-position: center;
   background-size: cover;
+  /*background-repeat: no-repeat;*/
   font-size: 25px;
 }
 
@@ -18,7 +19,7 @@ body {
   cursor: pointer;
   color: gold;
   right: 5%;
-  bottom: -22%;
+  bottom: 24%;
 }
 
 /* The actual popup (appears on top) */
