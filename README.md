@@ -2,7 +2,7 @@
 
 Littera, derived from the Latin word for "letter," is an engaging word puzzle game inspired by Wordl. With a focus on four-letter words, Littera challenges players to unravel hidden words through strategic guessing and letter arrangement. Test your vocabulary and deduction skills while racing against the clock. Can you master Littera and prove yourself as the ultimate wordsmith?
 
-(/assets/images/littera-game.jpg)
+![Screenshot!](./images/littera-game.png "gameplay")
 
 ##**Instructions**
 
