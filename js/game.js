@@ -1,5 +1,4 @@
-//Game//
-
+// Game Configuration
 const height = 6; // guesses
 const width = 4; // length
 
@@ -8,7 +7,7 @@ let col = 0; // current letter
 
 let gameOver = false;
 
-//Words | Littera
+// Words | Littera
 const dictionary = [
   "able",
   "acid",
@@ -437,6 +436,7 @@ const dictionary = [
   "make",
   "male",
   "mall",
+  "mail",
   "many",
   "mark",
   "mask",
@@ -923,16 +923,22 @@ const magicalWord =
   dictionary[Math.floor(Math.random() * dictionary.length)].toUpperCase();
 console.log(magicalWord);
 
+// Audio
 let myAudio = document.getElementById("myaudio");
 myAudio.volume = 0.2;
 
-//when the window loads
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  let popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
+// When the window loads
 window.onload = () => {
   createSquares();
 };
 
-//Board//
-
+// Function to create the game board
 function createSquares() {
   for (let i = 0; i < height; i++) {
     for (let v = 0; v < width; v++) {
@@ -945,28 +951,26 @@ function createSquares() {
   }
 }
 
-//Keyes dinamic - not let the user puts a lot of letter//
-
+// Event listener for keyup
 document.addEventListener("keyup", (event) => {
   if (gameOver) return;
 
-  //Key A to Z
+  // Key A to Z
   if ("KeyA" <= event.code && event.code <= "KeyZ") {
     if (col < width) {
       let currSquare = document.getElementById(
         row.toString() + "-" + col.toString()
-      ); // current square;
+      );
 
       if (currSquare.innerText == "") {
-        currSquare.innerText = event.code[3]; //index 3 from all keyes - ex. keyA
+        currSquare.innerText = event.code[3];
         col += 1;
       }
     }
 
-    //Key BackSpace
+    // Key Backspace
   } else if (event.code === "Backspace") {
     if (0 < col && col <= width) {
-      //you cannot backspace when you're in i0
       col -= 1;
     }
 
@@ -975,23 +979,22 @@ document.addEventListener("keyup", (event) => {
     );
     currSquare.innerText = "";
 
-    //Key Enter
+    // Key Enter
   } else if (event.code === "Enter") {
-    update();
+    checker();
   }
 
-  //magicalWord to win the game
+  // Check if the player won the game
   if (!gameOver && row === height) {
     gameOver = true;
-    document.getElementById("answer").innerText = [
-      "The word is " + magicalWord + "!" + "\n Click New Game to play again 😃",
-    ];
-
-    // Message if loses the game
+    document.getElementById("answer").innerText =
+      "The word is " + magicalWord + "!\n Click New Game to play again 😃";
   }
 });
 
-function update() {
+// Function to check the word and update the game state
+function checker() {
+  let correct = 0;
   let attempt = "";
   document.getElementById("answer").innerText = "";
 
@@ -1009,36 +1012,29 @@ function update() {
     return;
   }
 
-  //checking the letters
-  let correct = 0;
-  //check if letter is correct or present
+  // Checking the letters
   for (let c = 0; c < width; c++) {
     let currSquare = document.getElementById(
       row.toString() + "-" + c.toString()
     );
     let letter = currSquare.innerText;
 
-    //is correct?
     if (magicalWord[c] === letter) {
-      currSquare.classList.add("correct"); //print green
+      currSquare.classList.add("correct");
       correct += 1;
-    }
-    //is present?
-    else if (magicalWord.includes(letter)) {
-      currSquare.classList.add("present"); //print yellow
-    }
-    //is incorrect?
-    else {
-      currSquare.classList.add("incorrect"); //print red
+    } else if (magicalWord.includes(letter)) {
+      currSquare.classList.add("present");
+    } else {
+      currSquare.classList.add("incorrect");
     }
   }
 
-  //if all letters are correct, game is over
+  // If all letters are correct, the game is over
   if (correct === width) {
     gameOver = true;
     document.getElementById("winner").innerText =
-      "You won! Congratulations 🥳🥳🥳 \n Click New Game to play again 😃"; // Message if wins the game
+      "You won! Congratulations 🥳🥳🥳\n Click New Game to play again 😃";
   }
-  row += 1; //next row
-  col = 0; //position starts
+  row += 1; // Move to the next row
+  col = 0; // Reset the column position
 }
